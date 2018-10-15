@@ -96,6 +96,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="StateDef_Enum.ctl" Type="VI" URL="../Typedefs/StateDef_Enum.ctl"/>
+		</Item>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1694,7 +1697,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="StateDef_Enum.ctl" Type="VI" URL="../../Controls Template_wDSA_v2.0_20180928/Typedefs/StateDef_Enum.ctl"/>
 			<Item Name="ScaleReader_FPGATarget_FPGAmain_v3.lvbitx" Type="Document" URL="../FPGA Bitfiles/ScaleReader_FPGATarget_FPGAmain_v3.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
