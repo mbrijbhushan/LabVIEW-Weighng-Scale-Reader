@@ -10,5 +10,6 @@
 
 </Property>
 	<Item Name="AvgFxp.vi" Type="VI" URL="../AvgFxp.vi"/>
+	<Item Name="Int2Fxp.vi" Type="VI" URL="../Int2Fxp.vi"/>
 	<Item Name="MovingAvg.vi" Type="VI" URL="../MovingAvg.vi"/>
 </Library>
